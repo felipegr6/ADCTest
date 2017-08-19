@@ -1,7 +1,8 @@
-package br.com.ps.adctest;
+package br.com.ps.adctest.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import br.com.ps.adctest.R;
 
 public class MainActivity extends AppCompatActivity {
 
