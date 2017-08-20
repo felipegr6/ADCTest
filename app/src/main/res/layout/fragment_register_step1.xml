@@ -6,10 +6,27 @@
     tools:context="br.com.ps.adctest.fragments.RegisterStep1Fragment"
     >
 
-    <TextView
+    <EditText
+        android:id="@+id/txt_name"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Passo 1"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        />
+
+    <EditText
+        android:id="@+id/txt_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Sobrenome"
+        />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Continuar"
         />
 
 </LinearLayout>
