@@ -41,6 +41,10 @@ public final class Repository {
         return false;
     }
 
+    public static boolean clearAllData(Context context) {
+        return getPreferences(context).edit().clear().commit();
+    }
+
     private static Set<User> getRegisteredUsers(Context context) {
         SharedPreferences prefs = getPreferences(context);
         JsonAdapter<Set<User>> adapter = getListUserAdapter();
