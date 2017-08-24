@@ -35,3 +35,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.squareup.spoon:spoon-client:1.7.1'
 }
+
+apply from: '../jacoco.gradle'
+apply from: '../sonarqube.gradle'
